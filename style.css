@@ -1,0 +1,120 @@
+```css
+/* Configurações gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff0f5;
+    color: #4a2c35;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #e88fa9;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Menu */
+nav {
+    background-color: #d86f91;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+nav a:hover {
+    color: #ffe4ec;
+}
+
+/* Conteúdo principal */
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: white;
+    margin-bottom: 25px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(216, 111, 145, 0.2);
+}
+
+section h2 {
+    color: #c65378;
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+
+section p {
+    margin-bottom: 12px;
+}
+
+/* Produtos do cardápio */
+.Prouto {
+    background-color: #fff5f8;
+    border-left: 5px solid #e88fa9;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+
+.Prouto h3 {
+    color: #c65378;
+    margin-bottom: 8px;
+}
+
+.Prouto strong {
+    display: block;
+    color: #b83f68;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Lista */
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #c65378;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 5px;
+}
+```
